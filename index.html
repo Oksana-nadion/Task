@@ -6,7 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .menu {
+            display: flex;
+            height: 50px;
+            margin: 5px;
+            background-color: rgb(105, 171, 171);
+            align-items: center;
+        }
+        img {
+            width: 30px;
+        }
+        .item {
+            margin-left: auto;
+            display: inline-flex;
+        }
+        .items {
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
@@ -15,24 +36,26 @@
             <div>
                 <img src="img/student.png" alt="">
             </div>
-            <div>
+            <div class="items">
                 Attendance
             </div>
-            <div>
+            <div >
                 Schedule
             </div>
             <div>
-                Homework
-            </div>
-            <div>
+            Homework
+           </div>
+            <div class="item">
+            <div >
                 <img src="img/bell.png" alt="">
             </div>
             <div>
                 <img src="img/user.png" alt="">
             </div>
-            <div>
+            <div >
                 <img src="img/doorway.png" alt="">
             </div>
+        </div>
         </div>
         <h1>23 APRIL, TUESDAY</h1>
         
