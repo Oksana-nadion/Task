@@ -63,6 +63,26 @@
         }
         p {
             margin-top: 5px;
+            color: black;
+        }
+        .text {
+            font-size: small;
+            color: gray;
+        }
+        .add {
+            background-color: rgb(105, 171, 171);
+            width: 120px;
+            height: 30px;
+            padding: 5px;
+            border-radius: 3px;
+            color: white;
+            font-size: medium;
+        }
+        .none {
+            width: 170px;
+            height: 30px;
+            border: 1px solid gray;
+            border-radius: 3px;
         }
     </style>
 </head>
@@ -106,19 +126,19 @@
         </div>
         <hr>
         <div class="subject">
-            <div>Group 
+            <div class="text">Group 
                 <p>
                     ABC-1234
                 </p>
             </div>
-            <div>Subject
+            <div class="text">Subject
                 <p>HTML&CSS</p>
             </div>
-            <div>Lesson topic
-                <div></div>
+            <div class="text">Lesson topic
+                <div class="none"></div>
             </div>
-            <div>Homerwork
-                <div>Add homework</div>
+            <div class="text">Homerwork
+                <div class="add">Add homework</div>
             </div>
         </div>
     </header>
